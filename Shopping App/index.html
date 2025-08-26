@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleMan.</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav>
+        <div class="logo">Simple<span style="color: var(--primary-color);">Man.</span></div>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#shop">New Arrivals</a></li>
+            <li><a href="#pages">T-Shirt</a></li>
+            <li><a href="#blog">Shirts</a></li>
+            <li><a href="#blog">Jeans</a></li>
+        </ul>
+
+        <ul class="sidebar">
+            <li><i class="fas fa-times hide-btn" onclick="hideSidebar()"></i></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">New Arrivals</a></li>
+            <li><a href="#tshirt">T-Shirt</a></li>
+            <li><a href="#shirt">Shirts</a></li>
+            <li><a href="#jeans">Jeans</a></li>
+            <li><a href="#jackets">Jackets</a></li>
+            <li><a href="#shoes">Shoes</a></li>
+            <li><a href="#sale">Sale</a></li>
+        </ul>
+        <div class="element">
+            <input type="text" placeholder="Search...">
+            <a href="#search"><i class="fas fas fa-search"></i></a>
+            <a href="#cart"><i class="fas fas fa-shopping-cart"></i></a>
+            <a href="#profile"><i class="fas fas far fa-user"></i></a>
+            <div class="menu-btn" onclick="showSidebar()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
