@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(aset/image.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.left-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgba(21, 73, 110, 0.4);
+    color: white;
+    border-radius: 20px 0 0 20px;
+    backdrop-filter: blur(10px);
+}
+
+.left-container h2 {
+    margin: 10px auto;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.left-container p {
+    margin: 10px auto;
+    font-size: 1rem;
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(21, 73, 110, 1);
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+form h2 {
+    width: max-content;
+    margin-bottom: 30px;
+    border-bottom: 3px solid white;
+}
+
+form label {
+    text-align: left;
+    margin: 10px 0 5px 0;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-container .fa-eye, .fa-eye-slash {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    cursor: pointer;
+}
+
+
+form button {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background-color:;
+}
+
